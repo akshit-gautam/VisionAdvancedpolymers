@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.Square .store .c1{
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+}
+.Square .our{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    font-size: 3rem;
+    font-weight:500;
+    text-transform: capitalize;
+    margin-top: 3rem;
+
+}
+.Square .products{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Square .products .store{
+    display: flex;
+    margin: 50px;
+    overflow: hidden;
+}
+.Square .name-1{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 20rem;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+.Square .additives{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    font-family: 'poppins',sans-serif;
+    font-size:3rem;
+    font-weight: 500;
+}
+.Square{
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

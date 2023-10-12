@@ -1,0 +1,13 @@
+.image{
+    display: flex;
+    max-width: 100%;
+
+}
+.image .imageone{
+    width:100%;
+    height:auto;
+    
+}
+.first .second .third{
+    height: 90vh;
+}

@@ -1,0 +1,116 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.main .links {
+  display: flex;
+}
+.main .links .links-1 a{
+  font-family: 'poppins',sans-serif;
+  font-size: 15px;
+}
+
+.links-1 li:nth-child(3) {
+  margin-left: 700px;
+}
+
+.main .links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.main .links li a {
+  color: white;
+  margin: 0px 10px;
+  text-decoration: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main .navbar li {
+  cursor: pointer;
+}
+
+.main .links {
+  background:rgb(40, 93, 172);
+  height: 5vh;
+}
+
+.main .line {
+  background: rgb(74, 119, 187);
+  height: 0.8vh;
+}
+
+/* .main .line-2{
+  background: linear-gradient(176deg, rgba(99,200,200,1) 0%, rgba(83,152,185,1) 43%, rgba(27,167,204,1) 83%, rgba(21,147,180,1) 100%);  height: 0.8vh;
+} */
+.navbar-list li .hover-links {
+  color: white;
+  display: none;
+  position: absolute;
+  top: 101%;
+  background: blue;
+  box-shadow: 4px 4px 20px -1px #070707;
+}
+
+.navbar-list li:hover .hover-links {
+  display: flex;
+}
+
+.navbar {
+  background-color: #ffffff;
+  /* Background color for the navbar */
+  color: #fff;
+  /* Text color for the navbar */
+  display: flex;
+  justify-content: center;
+  /* Align the items to the right */
+  align-items: center;
+  padding: 10px;
+  height: 12vh;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  /* Space between navbar items */
+  align-items: center;
+}
+
+.navbar-list li {
+  font-size: 19px;
+  position: relative;
+  padding: 10px 0;
+}
+
+.navbar-list li img {
+  height: 90%;
+  width: 120px;
+}
+.navbar .navbar-list li .name{
+  color: #070707;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color:black;
+  text-transform:uppercase;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+}
+
+.navbar-list li:nth-child(2) {
+  margin-left: 300px;
+}
+
+.navbar-list li a:hover {
+  color: #00bcd4;
+  /* Text color for links on hover */
+}
