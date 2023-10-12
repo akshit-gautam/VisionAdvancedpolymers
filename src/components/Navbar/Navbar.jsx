@@ -1,6 +1,6 @@
 import React from "react";
 import './navbar.css';
-import logo from '../../Images/ak4.jpg';
+import logo from '../../Images/aki.jpg';
 import { useActionData, useNavigate, useNavigation } from "react-router-dom";
 
 export const Navbar = () => {
