@@ -35,7 +35,7 @@ export const Footer = () => {
                             Market
                         </li>
                         <li>
-                            Contac
+                            Contact
                         </li>
                     </ul>       
                 </div>

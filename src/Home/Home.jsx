@@ -27,7 +27,7 @@ export const Home = () => {
         <div className='container'>
             <Corousel />
             <div className='heading-1'>
-                Vision Advanced Polymers
+                Vision Advance Polymers
             </div>
 
             <div className='paraone'>Where comprehensive technology<br></br>
