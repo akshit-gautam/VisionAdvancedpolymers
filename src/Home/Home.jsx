@@ -26,15 +26,17 @@ export const Home = () => {
     return (
         <div className='container'>
             <Corousel />
-            <div className='heading-1'>
+            <div className='heading-1 text-center font-32 bold'>
                 Vision Advance Polymers
             </div>
 
-            <div className='paraone'>Where comprehensive technology<br></br>
-                meets custom solutions.</div>
+            <div className='paraone text-center bold font-40'>
+                Where comprehensive technology<br></br>
+                meets custom solutions.
+            </div>
 
-            <div className="big">
-                At Blend Additives and Compounds, we bring to you a plethora of premium<br></br> quality masterbatches and compounds. They are suitable for diversified<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1'>BOPP & CPP Films, Food Packaging &<br></br> Agriculture.</span>
+            <div className="big text-center">
+                At Blend Additives and Compounds, we bring to you a plethora of premium<br></br> quality masterbatches and compounds. They are suitable for diversified<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1 semi-bold'>BOPP & CPP Films, Food Packaging &<br></br> Agriculture.</span>
             </div>
 
             <div className="box">
@@ -44,19 +46,20 @@ export const Home = () => {
                     })
                 }
             </div>
+
             <div className='grid'>
                 <div className="left">
                     <img src={doc} alt="" />
                 </div>
                 <div className="right">
-                    <div className='right-2'>
+                    <div className='right-2 font-24 bold'>
                         Infrastructure
                     </div>
-                    <div className='right-1'>
+                    <div className='right-1 font-40'>
                         A manufacturing unit that<br></br> inspires possibilities!
                     </div>
                     <div className="right-3">
-                        We believe in making the ground we work in a place that inspires.<br></br> Thus, we set up one of the most versatile, fully equipped <span className='orange'> European<br></br> technology-backed</span> plants that boasts of state-of-the-art facilities and<br></br> constructive ergonomics.
+                        We believe in making the ground we work in a place that inspires.<br></br> Thus, we set up one of the most versatile, fully equipped <span className='orange semi-bold'> European<br></br> technology-backed</span> plants that boasts of state-of-the-art facilities and<br></br> constructive ergonomics.
                     </div>
 
                     <div className='main-card'>
@@ -92,10 +95,10 @@ export default Home;
 const Card = ({ name, price }) => {
     return (
         <div className="card">
-            <div className="text-center semi-bold">
+            <div className="text-center semi-bold font-20">
                 {name}
             </div>
-            <div className="text-center green-color">
+            <div className="text-center">
                 INR {price}
             </div>
 

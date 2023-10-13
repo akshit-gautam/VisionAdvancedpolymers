@@ -12,6 +12,7 @@ import { Recycling } from './Markets/Recycling';
 import { Packing } from './Markets/Packing';
 import { Agriculture } from './Markets/Agriculture';
 import { Electronic } from './Markets/Electronic';
+import './App.css';
 
 export const App = () => {
     return (

@@ -8,48 +8,67 @@
   font-family: 'poppins',sans-serif;
 }
 
-.App {
+
+/* font weight properties */
+.medium-bold{
+  font-weight: 500;
+}
+
+.semi-bold{
+  font-weight: 600;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+
+/* text align properties */
+.text-center{
   text-align: center;
-  width: 100svw;
-  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-left{
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-right{
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
+/* font size properties */
 
 .font-20{
   font-size: 1.25rem !important;
+}
+
+.font-24{
+  font-size: 1.5rem;
+}
+
+.font-32{
+  font-size: 2rem;
+}
+
+.font-40{
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .font-20{
+    font-size: 1.125rem !important;
+  }
+
+  .font-24{
+    font-size: 1.25rem;
+  }
+  
+  .font-32{
+    font-size: 1.75rem;
+  }
+  
+  .font-40{
+    font-size: 1.7rem;
+  }
 }

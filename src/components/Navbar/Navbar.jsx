@@ -21,7 +21,7 @@ export const Navbar = () => {
                 </div>
 
                 <div className="right">
-                    <div>On Social:</div>
+                    <div>On Social:</div> &nbsp;
                     <a target="_blank" href="https://www.linkedin.com/company/vision-advance-polymer/">
                         <FontAwesome className="fa-brands fa-linkedin"></FontAwesome>
                     </a>

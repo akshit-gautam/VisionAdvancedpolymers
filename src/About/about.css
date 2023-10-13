@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-/* .about-container .head{
-    font-size: 4rem;
-    text-transform: capitalize;
-    font-family: 'poppins',sans-serif;
-    font-weight: 600;
-    margin-top: 2rem;
-    text-align: center; */
+
 
 .about-container .grid {
     display: flex;
@@ -23,6 +16,7 @@
 .about-container .grid>div {
     width: 50%;
 }
+
 .about-container .right .right-2 {
     text-transform: capitalize;
     font-family: 'poppins', sans-serif;
@@ -56,4 +50,19 @@
     max-width:80%;
     text-transform: capitalize;
     font-family: 'poppins',sans-serif;
+}
+
+
+@media screen and (max-width: 800px) {
+    .about-container .grid{
+        flex-direction: column;
+    }
+
+    .about-container .grid>div {
+        width: 100%;
+    }
+
+    .about-container .grid .right{
+        padding: 0 1rem;
+    }
 }

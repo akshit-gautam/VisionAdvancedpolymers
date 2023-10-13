@@ -8,15 +8,14 @@
 .main .links {
   display: flex;
   justify-content: space-between;
-  padding: 0 5%;
+  padding: .5rem 5%;
   align-items: center;
-  height: 5vh;
   background:rgb(40, 93, 172);
 }
 
 .main .links .left, .main .links .right{
   display: flex;
-  gap: .5rem;
+  gap: .75rem;
   color: white;
 }
 
@@ -66,7 +65,7 @@
   transition: .3s ease-in-out;
 }
 
-.main .navbar .nav-items .item:hover{
+.main .navbar .nav-items .item:hover, .main .navbar .nav-item-hidden .item:hover{
   color: #00bcd4;
 }
 
@@ -101,112 +100,12 @@
 }
 
 
-
-
-
-/* 
-
-.main .links .links-1 a{
-  font-family: 'poppins',sans-serif;
-  font-size: 15px;
-}
-
-.links-1 li:nth-child(3) {
-  margin-left: 0;
-}
-
-.main .links ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-}
-
-.main .links li a {
-  color: white;
-  margin: 0px 10px;
-  text-decoration: none;
-  align-items: center;
-  cursor: pointer;
-}
-
-.main .navbar li {
-  cursor: pointer;
-}
-
-.main .links {
-  
-  height: 5vh;
-}
-
-
-
-.navbar-list li .hover-links {
-  color: white;
-  display: none;
-  position: absolute;
-  top: 101%;
-  background: blue;
-  box-shadow: 4px 4px 20px -1px #070707;
-}
-
-.navbar-list li:hover .hover-links {
-  display: flex;
-}
-
-.navbar {
-  background-color: #ffffff;
-  
-  color: #fff;
-
-  display: flex;
-  justify-content: center;
- 
-  align-items: center;
-  height: 12vh;
-}
-
-.navbar-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 30px;
-  
-  align-items: center;
-}
-
-.navbar-list li {
-  font-size: 19px;
-  position: relative;
-  padding: 10px 0;
-}
-
-.navbar-list li img {
-  height: 90%;
-  width: 140px;
-}
-.navbar .navbar-list li .name{
-  color: #070707;
-}
-
-.navbar-list li a {
-  text-decoration: none;
-  color:black;
-  text-transform:uppercase;
-  font-family: 'Poppins', sans-serif;
-  transition: color 0.3s;
-  font-size: 1.1rem;
-  font-weight: 500;
+@media screen and (max-width: 800px) {
+  .main .links{
+    flex-direction: column;
+    gap: .5rem;
+    padding: .5rem 1%;
+    font-size: .9rem;
+  }
 
 }
-
-.navbar-list li:nth-child(2) {
-  margin-left: 10%
-  
-}
-
-.navbar-list li a:hover {
-  color: #00bcd4;
-  
-} */
