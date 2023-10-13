@@ -16,7 +16,7 @@ import { Electronic } from './Markets/Electronic';
 export const App = () => {
     return (
 
-    <div>
+    <div className='App'>
     <BrowserRouter>
       <Navbar />
       <Routes>
