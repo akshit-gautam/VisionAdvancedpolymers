@@ -2,43 +2,57 @@ import React from "react";
 import './navbar.css';
 import logo from '../../Images/aki.jpg';
 import { useActionData, useNavigate, useNavigation } from "react-router-dom";
+import FontAwesome from "react-fontawesome";
 
 export const Navbar = () => {
-    const nav = useNavigate()
+    const nav = useNavigate();
     return (
         <div className="main">
+
             <div className="links">
-                <ul className="links-1">
-                    <li><a href="#"> <img src="" alt="" />9799412028 </a></li>
-                    <li><a href="#"> <img src="" alt="" />sales@vision-engineers.com</a></li>
-                    <li><a href="#">On Social:</a></li>
+                <div className="left">
+                    <a href="">
+                        <FontAwesome className=""></FontAwesome> +9799412028
+                    </a>
+                    <a href="">
+                        <FontAwesome className=""></FontAwesome> sales@vision-engineers.com
+                    </a>
+                </div>
 
-                </ul>
+                <div className="right">
+                    <div>On Social:</div>
+                    <a target="_blank" href="https://www.linkedin.com/company/vision-advance-polymer/">
+                        <FontAwesome className="fa-brands fa-linkedin"></FontAwesome>
+                    </a>
+                    <a href="">
+                        <FontAwesome className="fa-brands fa-google"></FontAwesome>
+                    </a>
+                    <a href="">
+                        <FontAwesome className="fa-brands fa-facebook"></FontAwesome>
+                    </a>
+                    <a href="">
+                        <FontAwesome className="fa-brands fa-instagram"></FontAwesome>
+                    </a>
+                </div>
             </div>
-            <nav className="navbar">
-                <ul className="navbar-list">
-                    <li>
-                        <img src={logo} height={'90%'} alt=""></img>
-                         {/* <p className="name">Vision Speciality Polymers</p> */}
-                    </li> 
-                    <li onClick={() => nav("/")}><a>Home</a></li>
-                    <li onClick={() => nav("/about")}><a>About</a>
-                    {/* <div className="hover-links">
-                    <ul>
-                        <li>
-                            About us 
-                        </li>
-                    </ul>
-                    </div> */}
-                    </li>
 
-                    <li onClick={() => nav("/products")}><a>Products</a></li>
-                    <li onClick={() => nav("/markets")}><a>Markets</a></li>
-                    <li onClick={() => nav("/contact")}><a>Contact</a></li>
-                </ul>
+
+            <nav className="navbar">
+                <div onClick={() => nav("/")} id="logo"><img src={logo} height='100%' alt=""></img></div>
+
+                <div className="responsive-icon"><FontAwesome className="fa-solid fa-bars"></FontAwesome></div>
+
+                <div className="nav-items">
+                    <div onClick={() => nav("/")} className="item font-20">Home</div>
+                    <div onClick={() => nav("/about")} className="item font-20">About</div>
+                    <div onClick={() => nav("/products")} className="item font-20">Products</div>
+                    <div onClick={() => nav("/market")} className="item font-20">Market</div>
+                    <div onClick={() => nav("/contact")} className="item font-20">Contact</div>
+                </div>
             </nav>
+
+
             <div className="line"></div>
-            <div className="line-2"></div>
 
         </div>
     )

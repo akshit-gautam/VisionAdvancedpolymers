@@ -46,12 +46,13 @@ export const Footer = () => {
                                 <h3 className="heading-2 poppins">Links</h3>
                             </li>
                             <li>
-                            <a href="https://www.instagram.com/"><FontAwesome className="fa-brands fa-instagram">
+                            <a href="https://www.instagram.com/">
+                            <FontAwesome className="fa-brands fa-instagram">
                             </FontAwesome>  Instagram
                             </a>
                             </li>
                             <li>
-                            <a href="https://www.linkedin.com/"><FontAwesome className="fa-brands fa-linkedin">
+                            <a href="https://www.linkedin.com/company/vision-advance-polymer/"><FontAwesome className="fa-brands fa-linkedin">
                             </FontAwesome>  Linkedin
                             </a>
                             </li>
