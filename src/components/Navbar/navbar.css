@@ -58,7 +58,7 @@
   opacity: 0;
 }
 
-.main .navbar .nav-items .item{
+.main .navbar .nav-items .item, .main .navbar .nav-item-hidden .item{
   cursor: pointer;
   font-weight: 600;
   font-size: 1.25rem;
