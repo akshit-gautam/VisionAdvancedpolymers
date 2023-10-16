@@ -36,7 +36,7 @@ export const Home = () => {
             </div>
 
             <div className="big text-center">
-                At Vision Advance Polymers and Compounds, we bring to you a plethora of premium<br></br> quality masterbatches and compounds. They are suitable for diversified<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1 semi-bold'>BOPP & CPP Films, Food Packaging &<br></br> Agriculture.</span>
+                {/* At Vision Advance Polymers and Compounds, we bring to you a plethora of premium<br></br> quality masterbatches and compounds. They are suitable for diversified<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1 semi-bold'>BOPP & CPP Films, Food Packaging &<br></br> Agriculture.</span> */}
             </div>
 
             <div className="box">
