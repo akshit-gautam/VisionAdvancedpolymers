@@ -21,8 +21,8 @@ export const About = () => {
           </div>
           <div className="right-3">
             {/* We believe in making the ground we work in a place that inspires.<br></br> Thus, we set up one of the most versatile, fully equipped <span className='orange'> European<br></br> technology-backed</span> plants that boasts of state-of-the-art facilities and<br></br> constructive ergonomics. */}
-            Vision Specialty Polymers  exists to conquer challenges and unlock the potential of innovation and sustainability everywhere on earth. Working together, we connect exceptional people, ideas, and science to create specialized and sustainable materials that enhance performance and protect the environment. With a commitment to tenacious problem-solving and unwavering service, we enable customers to transform their visions into products that improve quality of life in meaningful, dynamic ways.
-            We are here to help you change the world. Now, let's get started.
+            We are a leading innovator in the masterbatches and compounds industry. With a rich history and a commitment to excellence, we have become a trusted partner for businesses seeking high-quality solutions for their plastic and polymer needs. Started in 2022 primarily involve in manufacturing and trading of masterbatches, Compounds, specialty polymers. Also deal in plastic additives and Specialty chemicals required for Compounding, Packing, Pipe and Wire & Cable industries. The company has head office in Gurgaon, Haryana India.
+            Our goal is to fulfill customer needs by providing customized solutions and quality material within committed time. We believe in creating a sustainable and vibrant future through our products and services.
 
           </div>
         </div>
