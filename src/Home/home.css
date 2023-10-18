@@ -4,6 +4,13 @@
     text-transform: uppercase;
     color:rgb(40, 93, 172);
 }
+.container .heading-1 .slogan{
+    color:black;
+    font-size:1.6rem;
+    margin-top: 2rem;
+    color: orange;
+    font-weight: 500;
+}
 
 .container .paraone {
     padding-top: 3rem;

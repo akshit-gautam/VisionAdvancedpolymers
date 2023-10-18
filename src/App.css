@@ -15,7 +15,7 @@
 }
 
 .semi-bold{
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .bold{
@@ -48,11 +48,14 @@
 }
 
 .font-32{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .font-40{
   font-size: 2.5rem;
+}
+.blue-1{
+  color:rgba(40, 93, 172, 0.826);
 }
 
 @media screen and (max-width: 800px) {

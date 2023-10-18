@@ -5,38 +5,38 @@ import doc from '../Images/bg1.jpg';
 export const Home = () => {
     const data = [
         {
-            name: "BOPP Additives", price: "Crafted to meet the high line speeds of our customers, we are centered around providing unique properties such as slip resistance, material migration prevention, and thus value add to your product."
+            name: "Bopp Additives", price: "Anti-UV Additive , slip Additive ,PE Wax ,Anti Static Additives , Anti Slip Additives , Anti Blocking Additives , Clarifying Additives ,Toughness Additives , UV resistant Additives ,Whitening Agent."
         },
         {
-            name: "Clove", price: "Crafted to meet the high line speeds of our customers, we are centered around providing unique properties such as slip resistance, material migration prevention, and thus value add to your product."
+            name: "Color Masterbatch", price:"Color Masterbatch ,Black masterbatch, White Masterbatch ,General Compounds ,Special Effect Masterbatch ,Additives Masterbatch ,Anntiblock Masterbatch ,Slip Masterbatch ,Flame Retardant Masterbatch."
         },
         {
-            name: "Clove", price: "Crafted to meet the high line speeds of our customers, we are centered around providing unique properties such as slip resistance, material migration prevention, and thus value add to your product."
+            name: "Filler Masterbatch", price: "Calcium Carbonate Filler Masterbatch(CaCo3) ,Talc Masterbatch ,Barium sulfate(BaSo4)Masterbatch ,PP Filler Masterbatch-PP Calcium Carbonate Masterbatch ,PE Filler Masterbatch . "
         },
         {
-            name: "Clove", price: "Crafted to meet the high line speeds of our customers, we are centered around providing unique properties such as slip resistance, material migration prevention, and thus value add to your product."
+            name: "Functional Masterbatch", price: " These Masterbatch provide special function to plastic product Below products are is available according to customer UV stabilizer ,Flame Retardant , Anti Static , Anti Fogging ,Anti oxidants, Anti blocking, Anti biotic."
         },
         {
-            name: "Clove", price: "Crafted to meet the high line speeds of our customers, we are centered around providing unique properties such as slip resistance, material migration prevention, and thus value add to your product."
+            name: "Color And Effect Masterbatches", price: "We offer cost-effective solutions for improvixng the visual appeal , functionality, and performance of products ,RAL & Pantone shade card Equivalents ,Fluorescent Application, Transparent pearlescent. "
         },
         {
-            name: "Clove", price: "Crafted to meet the high line speeds of our customers, we are centered around providing unique properties such as slip resistance, material migration prevention, and thus value add to your product."
+            name: "Speciality Masterbatch", price: " Thermoplastic Elastomers- COPE ,TPE-E , TPE-S, TPV,EPDM+PP ,TPU  , EMA , Plastomers-POE , TPO , PEBA , TPE-A , TPE-U , TPE-O, TPSIV(Thermoplastic Silicon Vulcanizate), Performance Materials -Vistamaxx . "
         },
     ]
     return (
         <div className='container'>
             <Corousel />
-            <div className='heading-1 text-center font-32 bold'>
-                Vision Advance Polymers
+            <div className='heading-1 text-center bold font-32 bold'>
+                Vision Advance Polymers<br></br><div className='slogan'>Performance | Solutions | Trust</div>
             </div>
 
             <div className='paraone text-center bold font-40'>
-                Where comprehensive technology<br></br>
-                meets custom solutions.
+                Performance in Plastic Compound<br></br>
+                Masterbatch & TPE Manufacturing.
             </div>
 
-            <div className="big text-center">
-                {/* At Vision Advance Polymers and Compounds, we bring to you a plethora of premium<br></br> quality masterbatches and compounds. They are suitable for diversified<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1 semi-bold'>BOPP & CPP Films, Food Packaging &<br></br> Agriculture.</span> */}
+            <div className="big text-center semi-bold">
+             To express everything with color,we always find better and efficient way to provide desirable color<br></br>Technologies are not only improving existing product's functional aspect<br></br> but also making progress and innovation for human being and natural environment.<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1 semi-bold'>BOPP & CPP Films, Food Packaging &<br></br> Agriculture.</span>
             </div>
 
             <div className="box">
@@ -58,26 +58,26 @@ export const Home = () => {
                     <div className='right-1 font-40'>
                         A manufacturing unit that<br></br> inspires possibilities!
                     </div>
-                    <div className="right-3">
-                        We believe in making the ground we work in a place that inspires.<br></br> Thus, we set up one of the most versatile, fully equipped <span className='orange semi-bold'> European<br></br> technology-backed</span> plants that boasts of state-of-the-art facilities and<br></br> constructive ergonomics.
+                    <div className="right-3 ">
+                        We believe in making the ground we work in a place that inspires.<br></br> Thus, we set up one of the most versatile, fully equipped <span className='orange semi-bold'> Indian<br></br> Technology-backed</span> plants that boasts of state-of-the-art facilities and<br></br> constructive ergonomics.
                     </div>
 
                     <div className='main-card'>
                         <div className="card-1">
 
-                            <p>Seamless<br></br>automation</p>
+                            <p>Looks<br></br>automation</p>
                         </div>
 
                         <div className="card-1">
 
                             <p>
-                                Enviroment<br></br>Friendly
+                                Feels<br></br>Friendly
                             </p>
                         </div>
 
                         <div className="card-1">
 
-                            <p>Steamline<br></br>Production process</p>
+                            <p>Focus<br></br>Production process</p>
                         </div>
 
                     </div>
@@ -95,11 +95,11 @@ export default Home;
 const Card = ({ name, price }) => {
     return (
         <div className="card">
-            <div className="text-center semi-bold font-20">
+            <div className="text-center semi-bold font-20 blue-1">
                 {name}
             </div>
             <div className="text-center">
-                INR {price}
+                 {price}
             </div>
 
         </div>
