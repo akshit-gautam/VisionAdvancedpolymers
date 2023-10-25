@@ -1,6 +1,6 @@
 import React from 'react'
-import mb from '../Images/c1.jpg';
-import mbone from '../Images/c2.jpg';
+import heat from '../Images/heat.jpg';
+import calcium from '../Images/calcium.jpg';
 import mbsecond from '../Images/c3jpg.jpg';
 
 
@@ -9,15 +9,15 @@ export const Compounding = () => {
     <div className='Square'>
                         <div className="products">
                 <div className="store">
-                    <img className='c1' src={mb} alt="color masterbatch" />
+                    <img className='c1' src={heat} alt="color masterbatch" />
                     <div className='name-1'>
-                    sukanya
+                    Heat Stablizer
                     </div>
                 </div>
                 <div className="store">
-                    <img className='c1' src={mbone} alt="color masterbatch" />
+                    <img className='c1' src={calcium} alt="color masterbatch" />
                     <div className='name-1'>
-                    Electronic appliances 
+                    Calcium Carbonate 
                     </div>
                 </div>
                 <div  className="store">
