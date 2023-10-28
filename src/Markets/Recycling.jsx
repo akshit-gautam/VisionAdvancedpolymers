@@ -1,30 +1,30 @@
 import React from 'react'
-import mb from '../Images/c1.jpg';
-import mbone from '../Images/c2.jpg';
-import mbsecond from '../Images/c3jpg.jpg';
+import bags from '../Images/pics/recycle.jpg';
+import dust from '../Images/pics/mobile-dust-bin.jpg';
+import picker from '../Images/pics/plastic-dust-picker.jpg';
 export const Recycling = () => {
   return (
     <div className='Square'>
                         <div className="products">
                 <div  className="store">
-                    <img className='c1' src={mb} alt="color masterbatch" />
+                    <img className='c1' src={bags} alt="color masterbatch" />
                     <div className='name-1'>
-                    Compounding industries
+                    Carry Bags
                     </div>
                 </div>
                 <div  className="store">
-                    <img className='c1' src={mbone} alt="color masterbatch" />
+                    <img className='c1' src={dust} alt="color masterbatch" />
                     <div className='name-1'>
-                    Electronic appliances 
+                    Dustbins 
                     </div>
                 </div>
                 <div  className="store">
-                    <img className='c1' src={mbsecond} alt="color masterbatch" />
+                    <img className='c1' src={picker} alt="color masterbatch" />
                     <div className='name-1'>
-                        Agriculture
+                    Dustpicker
                     </div>
                 </div>
-                <div  className="store">
+                {/* <div  className="store">
                     <img className='c1' src={mbsecond} alt="color masterbatch" />
                     <div className='name-1'>
                         Recycling
@@ -35,7 +35,7 @@ export const Recycling = () => {
                     <div className='name-1'>
                         Packing 
                     </div>
-                </div>
+                </div> */}
             </div>
     </div>
   )

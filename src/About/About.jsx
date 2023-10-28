@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import conto from '../Images/vg2.jpg';
+import conto from '../Images/aa2.jpg';
 
 export const About = () => {
   return (
@@ -17,7 +17,7 @@ export const About = () => {
             About us
           </div>
           <div className='right-1'>
-            A manufacturing unit that<br></br> inspires possibilities!
+            A Company That Inspires <br></br>possibilities!
           </div>
           <div className="right-3">
             {/* We believe in making the ground we work in a place that inspires.<br></br> Thus, we set up one of the most versatile, fully equipped <span className='orange'> European<br></br> technology-backed</span> plants that boasts of state-of-the-art facilities and<br></br> constructive ergonomics. */}

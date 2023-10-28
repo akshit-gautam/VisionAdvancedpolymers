@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './contact.css';
-import vg from '../Images/vg.jpg';
+import vg from '../Images/pics/organic-flat-customer-support_52683-58714.jpg';
 
 export const Contact = () => {
     const [name, setName] = useState('');
@@ -50,10 +50,10 @@ export const Contact = () => {
                     </form>
                 </div>
             </div>
-            {/* <div className="image-container">
-                <img className='imge' src={vg} alt="" />
+           <div className="image-container">
+                <img className='image' src={vg} alt="" />
 
-            </div> */}
+            </div>
         </div>
     )
 }

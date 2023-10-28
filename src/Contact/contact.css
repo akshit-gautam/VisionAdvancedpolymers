@@ -10,6 +10,9 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 } */
+.page .phonepage .contact {
+    text-align: center;
+}
 .phonepage .form-control {
     display: flex;
     height: 100%;
@@ -19,7 +22,7 @@
 }
 .phonepage .form-control .inputs-1 {
     padding: 1rem;
-    width: 40%;
+    width: 60%;
     font-size: 1rem;
     font-weight: bold;
     margin: 1rem;
@@ -30,7 +33,7 @@
     background:  rgb(74, 119, 187);
     color: white;
     padding: 1rem;
-    width: 42%;
+    width: 60%;
     font-size: 1rem;
     font-weight: 600;
     margin: 4rem;
@@ -40,18 +43,29 @@
     border: none;
    
 }
-/* .page{
+ .page{
     display: grid;
     grid-template-columns: 1fr 1fr;
-/* }
-.page .phonepage .image-container{
+ }
+/* .page .phonepage .image-container .image {
     margin-top: 3rem;
+    width: 70%;
+    height: 70%;
+    object-fit: fill;
 } */
+.page .image-container .image {
+    margin-top: 10rem;
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
+  
 .page .contact{
     text-align: center;
+    justify-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-family: 'poppins',sans-serif;
     font-size: 3rem;
     font-weight: 600;
-} 
+}

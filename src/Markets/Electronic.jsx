@@ -1,7 +1,7 @@
 import React from 'react'
-import mb from '../Images/c1.jpg';
-import mbone from '../Images/c2.jpg';
-import mbsecond from '../Images/c3jpg.jpg';
+import cable from '../Images/pics/Underground-Cables.jpg';
+import sw from '../Images/pics/switches.jpg';
+import mac from '../Images/pics/washing.jpg';
 
 
 export const Electronic = () => {
@@ -9,24 +9,24 @@ export const Electronic = () => {
     <div className='Square'>
                         <div className="products">
                 <div className="store">
-                    <img className='c1' src={mb} alt="color masterbatch" />
+                    <img className='c1' src={cable} alt="color masterbatch" />
                     <div className='name-1'>
-                    akshit
+                    Cables & Wires
                     </div>
                 </div>
                 <div  className="store">
-                    <img className='c1' src={mbone} alt="color masterbatch" />
+                    <img className='c1' src={sw} alt="color masterbatch" />
                     <div className='name-1'>
-                    Electronic appliances 
+                    Switches
                     </div>
                 </div>
                 <div  className="store">
-                    <img className='c1' src={mbsecond} alt="color masterbatch" />
+                    <img className='c1' src={mac} alt="color masterbatch" />
                     <div className='name-1'>
-                        Agriculture
+                    Washing Machine
                     </div>
                 </div>
-                <div  className="store">
+                {/* <div  className="store">
                     <img className='c1' src={mbsecond} alt="color masterbatch" />
                     <div className='name-1'>
                         Recycling
@@ -37,7 +37,7 @@ export const Electronic = () => {
                     <div className='name-1'>
                         Packing 
                     </div>
-                </div>
+                </div> */}
             </div>
     </div>
   )

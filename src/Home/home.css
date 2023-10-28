@@ -1,6 +1,6 @@
 
 .container .heading-1 {
-    padding-top: 5rem;
+    padding-top: 1.5rem;
     text-transform: uppercase;
     color:rgb(40, 93, 172);
 }
@@ -29,7 +29,7 @@
 }
 
 .container .box {
-    background-image: url(../Images/cube.jpg);
+    background-image: url(../Images/blue-gravel-stone-texture-background.jpg);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -1,31 +1,31 @@
 import React from 'react'
-import mb from '../Images/c1.jpg';
-import mbone from '../Images/c2.jpg';
-import mbsecond from '../Images/c3jpg.jpg';
+import Tapes from '../Images/pics/bop.jpg';
+import Shrink  from '../Images/pics/shrink.jpg';
+import Pouches from '../Images/pics/pouch.jpg';
 
 export const Packing = () => {
   return (
     <div className='Square'>
                        <div className="products">
                 <div className="store">
-                    <img className='c1' src={mb} alt="color masterbatch" />
+                    <img className='c1' src={Tapes} alt="color masterbatch" />
                     <div className='name-1'>
-                    Compounding industries
+                    Bop Tapes
                     </div>
                 </div>
                 <div  className="store">
-                    <img className='c1' src={mbone} alt="color masterbatch" />
+                    <img className='c1' src={Shrink} alt="color masterbatch" />
                     <div className='name-1'>
-                    Electronic appliances 
+                    Shrink Wrap
                     </div>
                 </div>
                 <div  className="store">
-                    <img className='c1' src={mbsecond} alt="color masterbatch" />
+                    <img className='c1' src={Pouches} alt="color masterbatch" />
                     <div className='name-1'>
-                        Agriculture
+                    Pouches 
                     </div>
                 </div>
-                <div  className="store">
+                {/* <div  className="store">
                     <img className='c1' src={mbsecond} alt="color masterbatch" />
                     <div className='name-1'>
                         Recycling
@@ -36,7 +36,7 @@ export const Packing = () => {
                     <div className='name-1'>
                         Packing 
                     </div>
-                </div>
+                </div> */}
             </div> 
     </div>
   )

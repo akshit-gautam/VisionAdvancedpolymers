@@ -5,22 +5,22 @@ import doc from '../Images/bg1.jpg';
 export const Home = () => {
     const data = [
         {
-            name: "Bopp Additives", price: "Anti-UV Additive , slip Additive ,PE Wax ,Anti Static Additives , Anti Slip Additives , Anti Blocking Additives , Clarifying Additives ,Toughness Additives , UV resistant Additives ,Whitening Agent."
+            name: "Color & Effect masterbatches", price: "We offer cost-effective solutions for improvising the visual appeal , functionality, and performance of products ,RAL & Pantone shade card Equivalents ,Fluorescent Application, Transparent pearlescent."
         },
         {
-            name: "Color Masterbatch", price:"Color Masterbatch ,Black masterbatch, White Masterbatch ,General Compounds ,Special Effect Masterbatch ,Additives Masterbatch ,Anntiblock Masterbatch ,Slip Masterbatch ,Flame Retardant Masterbatch."
-        },
-        {
-            name: "Filler Masterbatch", price: "Calcium Carbonate Filler Masterbatch(CaCo3) ,Talc Masterbatch ,Barium sulfate(BaSo4)Masterbatch ,PP Filler Masterbatch-PP Calcium Carbonate Masterbatch ,PE Filler Masterbatch . "
+            name: "Black & white Masterbatch", price:"PP , PE , ABS , PC , based masterbatches highly filled with titanium dioxide .Most suitable for Like-wise application, black masterbatch good in carbon percentage width permium quality within affordable prices."
         },
         {
             name: "Functional Masterbatch", price: " These Masterbatch provide special function to plastic product Below products are is available according to customer UV stabilizer ,Flame Retardant , Anti Static , Anti Fogging ,Anti oxidants, Anti blocking, Anti biotic."
         },
         {
-            name: "Color And Effect Masterbatches", price: "We offer cost-effective solutions for improvixng the visual appeal , functionality, and performance of products ,RAL & Pantone shade card Equivalents ,Fluorescent Application, Transparent pearlescent. "
+            name: "Filler Masterbatch", price: "Calcium Carbonate Filler Masterbatch(CaCo3) ,Talc Masterbatch ,Barium sulfate(BaSo4)Masterbatch ,PP Filler Masterbatch-PP Calcium Carbonate Masterbatch ,PE Filler Masterbatch . "
         },
         {
-            name: "Speciality Masterbatch", price: " Thermoplastic Elastomers- COPE ,TPE-E , TPE-S, TPV,EPDM+PP ,TPU  , EMA , Plastomers-POE , TPO , PEBA , TPE-A , TPE-U , TPE-O, TPSIV(Thermoplastic Silicon Vulcanizate), Performance Materials -Vistamaxx . "
+            name: "Plastic Additives", price: "Flame Retardant , Nucliating Agent , Uv Stablizer , Quality And Versatlity of Our Products Set Standard For Applications in Diverse Sectors to achieve high performance from the plastic for a specific Purpose .  "
+        },
+        {
+            name: "Speciality Polymers", price: " Thermoplastic Elastomers- COPE ,TPE-E , TPE-S, TPV,EPDM+PP ,TPU  , EMA , Plastomers-POE , TPO , PEBA , TPE-A , TPE-U , TPE-O, TPSIV(Thermoplastic Silicon Vulcanizate), Performance Materials -Vistamaxx . "
         },
     ]
     return (
@@ -31,12 +31,12 @@ export const Home = () => {
             </div>
 
             <div className='paraone text-center bold font-40'>
-                Performance in Plastic Compound<br></br>
-                Masterbatch & TPE Manufacturing.
+                Performance In Plastic<br></br>
+                Masterbatches  & Compound.
             </div>
 
             <div className="big text-center semi-bold">
-             To express everything with color,we always find better and efficient way to provide desirable color<br></br>Technologies are not only improving existing product's functional aspect<br></br> but also making progress and innovation for human being and natural environment.<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1 semi-bold'>BOPP & CPP Films, Food Packaging &<br></br> Agriculture.</span>
+             To express everything with color,we always find better and efficient way to provide desirable color<br></br>Technologies are not only improving existing product's functional aspect<br></br> but also making progress and innovation for human being and natural environment.<br></br>applications within the packaging industry and other industrial applications.<br></br> These include applications such as ,<span className='orange-1 semi-bold'> Industrial packing, House Hold Appliances, Compounding &<br></br> Agriculture.</span>
             </div>
 
             <div className="box">
@@ -62,7 +62,7 @@ export const Home = () => {
                         We believe in making the ground we work in a place that inspires.<br></br> Thus, we set up one of the most versatile, fully equipped <span className='orange semi-bold'> Indian<br></br> Technology-backed</span> plants that boasts of state-of-the-art facilities and<br></br> constructive ergonomics.
                     </div>
 
-                    <div className='main-card'>
+                    {/* <div className='main-card'>
                         <div className="card-1">
 
                             <p>Looks<br></br>automation</p>
@@ -80,7 +80,7 @@ export const Home = () => {
                             <p>Focus<br></br>Production process</p>
                         </div>
 
-                    </div>
+                    </div> */}
                     <div className="rounded-button">
                         <button className="round">Learn more</button>
                     </div>
