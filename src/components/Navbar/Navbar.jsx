@@ -13,16 +13,16 @@ export const Navbar = () => {
             <div className="links">
                 <div className="left">
                     <a href="">
-                        <FontAwesome className=""></FontAwesome> +9799412028
+                        <FontAwesome className=""></FontAwesome> +91 9799412028 ,+91 9454599306
                     </a>
                     <a href="">
-                        <FontAwesome className=""></FontAwesome> sales@vision-engineers.com
+                        <FontAwesome className=""></FontAwesome> Enquiry@visionadvancepolymers.com
                     </a>
                 </div>
 
                 <div className="right">
                     <div>On Social:</div> &nbsp;
-                    <a target="_blank" href="">
+                    <a target="_blank" href="https://www.linkedin.com/company/vision-advance-polymer/about/?viewAsMember=true">
                         <FontAwesome className="fa-brands fa-linkedin"></FontAwesome>
                     </a>
                     <a href="">

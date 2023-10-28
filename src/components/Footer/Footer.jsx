@@ -52,7 +52,7 @@ export const Footer = () => {
                             </a>
                             </li>
                             <li>
-                            <a href=""><FontAwesome className="fa-brands fa-linkedin">
+                            <a href="https://www.linkedin.com/company/vision-advance-polymer/about/?viewAsMember=true"><FontAwesome className="fa-brands fa-linkedin">
                             </FontAwesome>  Linkedin
                             </a>
                             </li>
