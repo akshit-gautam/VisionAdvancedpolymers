@@ -46,7 +46,7 @@ export const Products = () => {
                 </div>
             </div>
             <div className="additives">
-                additive
+                additive masterbatch
             </div>
             <div className="products">
                 <div className="store">
@@ -61,18 +61,18 @@ export const Products = () => {
                         Uv Additive
                     </div>
                 </div>
-                <div className="store">
+                {/* <div className="store">
                     <img className='c1' src={lubri} alt="color masterbatch" />
                     <div className='name-1'>
                         Lubricants Additive
                     </div>
-                </div>
-                <div className="store">
+                </div> */}
+                {/* <div className="store">
                     <img className='c1' src={wax} alt="color masterbatch" />
                     <div className='name-1'>
                         Waxes Additive
                     </div>
-                </div>
+                </div> */}
                 <div className="store">
                     <img className='c1' src={block} alt="color masterbatch" />
                     <div className='name-1'>
